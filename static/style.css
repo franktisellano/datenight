@@ -9,6 +9,12 @@ body {
     background: #000;
     display: flex;
     justify-content: center;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+a, a:visited, a:hover {
+    color: #fff;
 }
 #logo {
     max-width: 800px;
