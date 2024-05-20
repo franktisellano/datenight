@@ -1,0 +1,5 @@
+[project]
+name = datenight
+
+[servers.ghpages]
+target = ghpages://franktisellano/datenight
