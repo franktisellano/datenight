@@ -2,4 +2,4 @@
 name = datenight
 
 [servers.ghpages]
-target = ghpages://franktisellano/datenight
+target = ghpages://franktisellano/datenight?cname=datenightnewjersey.com
