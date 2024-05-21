@@ -4,9 +4,9 @@
 <meta name="viewport" content="width=device-width" />
 <title>Date Night — New Jersey Cover Band</title>
 <body>
-  <img class="logo" src="/static/logo.png" />
+  <div id="logo"></div>
   <canvas id="canvas"></canvas>
-  <!-- <nav>
+  <nav>
     <ul>
       <li class="active"><a href="./">Home</a></li>
       
@@ -17,7 +17,7 @@
         <li><a href="contact">Contact</a></li>
       
     </ul>
-  </nav> -->
+  </nav>
   <script type="text/javascript">
     const lerp = (min, max, fraction) => (max - min) * fraction + min;
     const normalize = (max, fraction) => max * (fraction + 0.5);
