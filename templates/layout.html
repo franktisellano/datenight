@@ -4,9 +4,9 @@
 <meta name="viewport" content="width=device-width" />
 <title>Date Night — {% block title %}Welcome{% endblock %}</title>
 <body>
-  <img class="logo" src="/static/logo.png" />
+  <div id="logo"></div>
   <canvas id="canvas"></canvas>
-  <!-- <nav>
+  <nav>
     <ul>
       <li{% if this._path == '/' %} class="active"{% endif
         %}><a href="{{ '/'|url }}">Home</a></li>
@@ -19,7 +19,7 @@
           %}><a href="{{ href|url }}">{{ title }}</a></li>
       {% endfor %}
     </ul>
-  </nav> -->
+  </nav>
   <script type="text/javascript">
     const lerp = (min, max, fraction) => (max - min) * fraction + min;
     const normalize = (max, fraction) => max * (fraction + 0.5);
