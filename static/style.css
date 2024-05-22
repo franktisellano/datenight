@@ -76,7 +76,7 @@ body {
     z-index: 1;
     flex: 1;
     width: 100%;
-    background-image: url('/static/logo.png');
+    background-image: url('/static/logo-glow.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
