@@ -131,12 +131,12 @@
        * When the first plane reaches a position of z = 2
        * we reset it to 0, its initial position
        */
-      plane.position.z = (elapsedTime * 0.15) % 2;
+      plane.position.z = (elapsedTime * 0.025) % 2;
       /**
        * When the first plane reaches a position of z = 0
        * we reset it to -2, its initial position
        */
-      plane2.position.z = ((elapsedTime * 0.15) % 2) - 2;
+      plane2.position.z = ((elapsedTime * 0.025) % 2) - 2;
 
       // Update the rendered scene
       renderer.render(scene, camera);
