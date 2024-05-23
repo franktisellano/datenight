@@ -4,20 +4,72 @@
 <meta name="viewport" content="width=device-width" />
 <title>Date Night — Schedule</title>
 <body>
-  <div id="logo"></div>
-  <canvas class="webgl" style=""></canvas>
   <nav>
   <ul>
-    <li><a href="../">Home</a></li>
     
-      <li class="active"><a href="./">Schedule</a></li>
+      <li class="nav-item"><a style="font-size: 45px" href="./#about">About</a></li>
     
-      <li><a href="../about/">About</a></li>
+      <li class="nav-item"><a style="font-size: 42px" href="./#shows">Shows</a></li>
     
-      <li><a href="../contact">Contact</a></li>
+      <li class="nav-item"><a style="font-size: 33px" href="./#contact">Contact</a></li>
     
-  </ul>
+  </ul>  
+  <label class="hamburger" for="menu-toggle" tabindex="0">
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="SVGRepo_iconCarrier"> <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/> <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/> <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/> </g>
+    </svg>
+  </label>
+  <input id="menu-toggle" type="checkbox" />
 </nav>
+  <section id="main">
+    <div id="logo">
+      <img src="/static/logo-glow.png" />
+      <!-- <div class="tagline">A cover band for grownups who just want to fucking dance.</div> -->
+    </div>
+    <section class="content-section" id="about">
+      <div class="content-image">
+        <img src="https://placekitten.com/400/300" />
+      </div>
+      <div class="content-text">
+        <h2>About</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="shows">
+      <div class="content-text">
+        <h2>Shows</h2>
+      </div>
+      <div class="content-text">
+        <ul>
+          <li>Show name date</li>
+          <li>Show name date</li>
+          <li>Show name date</li>
+          <li>Show name date</li>
+        </ul>
+      </div>
+    </section>
+
+  <section class="content-section" id="contact">
+      <div class="content-text">
+        <h2>Contact</h2>
+      </div>
+      <div class="content-text">
+        <ul>
+          <li>Show name date</li>
+          <li>Show name date</li>
+          <li>Show name date</li>
+          <li>Show name date</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+  <canvas class="webgl"></canvas>
   <script type="importmap">
     {
       "imports": {
